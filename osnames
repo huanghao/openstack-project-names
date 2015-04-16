@@ -55,7 +55,6 @@ def cmd_clone(args):
                 continue
             cmd = 'git clone %s%s %s' % (OSNames.gitpath, proj, proj)
             print(cmd, '...')
-            continue
             try:
                 os.system(cmd)
             except KeyboardInterrupt:
