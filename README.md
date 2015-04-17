@@ -2,8 +2,15 @@
 
 A command to search and clone openstack projects.
 
+Installation
+============
+
+    $ pip install osnames
+
 Usage
 =====
+
+Find projects by name
 
     $ osnames find keystone
     openstack/keystone
@@ -14,6 +21,8 @@ Usage
     openstack/python-keystoneclient-kerberos
     stackforge/keystone-salt-formula
     stackforge/puppet-keystone
+
+Clone projects by name
 
     $ osnames --cache clone keystone
     openstack/keystone
